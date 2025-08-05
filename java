@@ -44,7 +44,7 @@ public class Main {
             Calculadora calc = new Calculadora(n1, n2);
 
             System.out.println("Calculadora:");
-            System.out.println("1 - Soma | 2 - Subtracao | 3 - Multiplicacao | 4 - Divisao");
+            System.out.println("1 - Soma | 2 - Subtracao | 3 - Multiplicacao | 4 - Divisao ");
             int op = ler.nextInt();
 
             switch (op) {
