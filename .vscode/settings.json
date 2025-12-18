@@ -1,0 +1,8 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.project.sourcePaths": [
+    "CODIGO/backend/src/main/java",
+    "CODIGO/backend/src/test/java"
+  ],
+  "java.project.outputPath": "CODIGO/backend/target/classes"
+}

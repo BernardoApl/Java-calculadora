@@ -1,32 +1,6 @@
-import java.util.*;
+package br.com.calculadora;
 
-class Calculadora {
-    int n1, n2;
-
-    public Calculadora(int n1, int n2) {
-        this.n1 = n1;
-        this.n2 = n2;
-    }
-
-    public int somar() {
-        return n1 + n2;
-    }
-
-    public int subtrair() {
-        return n1 - n2;
-    }
-
-    public int multiplicar() {
-        return n1 * n2;
-    }
-
-    public double dividir() {
-        if (n2 == 0) {
-            throw new ArithmeticException("Divisão por zero");
-        }
-        return (double) n1 / n2;
-    }
-}
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,7 +8,8 @@ public class Main {
 
         while (true) {
             System.out.println("Digite 2 numeros: ");
-            int n1 = ler.nextInt(), n2 = ler.nextInt();
+            int n1 = ler.nextInt();
+            int n2 = ler.nextInt();
 
             if (n1 < 0 || n2 < 0) {
                 System.out.println("Nao pode numero negativo");
@@ -68,7 +43,5 @@ public class Main {
                     System.out.println("Digito invalido");
             }
         }
-
-    
     }
 }
